@@ -16,10 +16,10 @@ const Header = () => {
               <span className="menu"></span>
               <ul className="navig">
                 <li>
-                <Anchor href="home">Home</Anchor>
+                  <Anchor href="home">Home</Anchor>
                 </li>
                 <li>
-                <Anchor href="about">About</Anchor>
+                  <Anchor href="about">About</Anchor>
                 </li>
               </ul>
             </div>

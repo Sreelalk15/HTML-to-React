@@ -1,14 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Anchor = props => {
+const Anchor = (props) => {
   return (
     <>
-      <Link
-        to={props.href}
-      >
-        {props.children}
-      </Link>
+      <Link to={props.href}>{props.children}</Link>
     </>
   );
 };
